@@ -3,7 +3,7 @@ import openai
 openai.api_key = "UR API KEY"
 
 def chat_with_gpt3(prompt):
-    if len(prompt) > 1000:
+    if len(prompt) > 10000:
         return "Too much page"
     response = openai.completions.create(
         model = "gpt-3.5-turbo",
