@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = "UR API KEY"
 
 def chat_with_gpt3(prompt):
     if len(prompt) > 1000:
